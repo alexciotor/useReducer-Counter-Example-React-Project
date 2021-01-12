@@ -2,11 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
- 
+ import Reduce from './reduce'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Reduce />
   </React.StrictMode>,
   document.getElementById('root')
 );
